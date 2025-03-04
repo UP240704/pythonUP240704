@@ -57,7 +57,7 @@ print("The slope is: ", slope)
 
 ##10 
 print("")
-Compare = pendiente <= slope
+Compare = m <= slope
 print("La diferencia entre las pendientes es de: ", Compare)
 
 ##11 
