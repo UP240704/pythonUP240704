@@ -144,13 +144,13 @@ print("Los tipos de las unidades son iguales? ", comTyp)
 
 ##21
 print("")
-hours = int(input("Ingresa las horas que trabajaste: "))
-rate = int(input("Ingresa el valor de la tarifa por hora: "))
+hours = int(input("¿Cuántas horas trabajaste: "))
+rate = int(input("Valor de la tarifa por hora: "))
 salario = hours * rate
 print("Tu salario es de ", "|", salario, "|" )
 
 ##22 
-years = int(input("Cuantos anos tienes? "))
+years = int(input("Cuantos años tienes? "))
 seconds = (365 * (3600*24))
 total = (years * seconds)
 print("Tu tienes un total de:", total, "segundos")
