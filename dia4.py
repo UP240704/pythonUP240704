@@ -60,4 +60,49 @@ print(company[0])
 
 ##17
 print(company[10])
+
 ##18
+pye="python for everyone"
+print(pye)
+
+##19
+cfa=company
+print(cfa)
+
+##20
+cindex=company.index("c")
+print(cindex)
+
+##21
+cindex=company.index("f")
+print(cindex)
+
+##22
+lfind="coding for all people".rfind("l")
+print(lfind)
+
+##23
+cindex='You cannot end a sentence with because because because is a conjunction'.index("because")
+print(cindex)
+
+##24
+cindex='You cannot end a sentence with because because because is a conjunction'.rindex("because")
+
+##25
+slicedsentence='You cannot end a sentence with because because because is a conjunction'[31:55]
+print(slicedsentence)
+
+##28
+print(company.startswith("coding"))
+
+##29
+print(company.endswith("coding"))
+
+##30
+print('   Coding For All      '[3:17])
+
+##31
+print("30DaysOfPython".isidentifier())
+print("thirty_days_of_python".isidentifier())
+
+##32
