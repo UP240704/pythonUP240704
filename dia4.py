@@ -18,5 +18,7 @@ print(company)
 ## 5
 print(len(company))
 ## 6 
-print("")
-companyMAYUS=company.upper
+uppercompany=company.upper()
+## 7h
+
+
