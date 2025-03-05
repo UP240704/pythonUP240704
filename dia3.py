@@ -53,7 +53,7 @@ y2 = 10
 distance = ((x2 - x1)**2 + (y2-y1)**2)**0.5
 print("La distancia entre los dos puntos es: ", distance)
 slope = (y2 - y1) / (x2 - x1)
-print("The slope is: ", slope)
+print("La pendiente es de ",slope)
 
 ##10 
 print("")
@@ -62,14 +62,12 @@ print("La diferencia entre las pendientes es de: ", Compare)
 
 ##11 
 print("")
-vaX = int(input("Ingresa el valor de X "))
-vaY = (vaX**2 + (6 * vaX) + 9) 
-print("El valor de la variable Y es igual a ", "|", vaY, "|")
+x = int(input("Ingresa el valor de X "))
+y = (x**2 + (6 * x) + 9) 
+print("El valor de la variable Y es igual a ", "|", y, "|")
 
 ##12
 print("")
-##python = int(input("Ingresa el valor de python "))
-##dragon = int(input("Ingresa el valor de dragon "))
 python = str(55)
 dragon = str(3)
 
@@ -80,7 +78,6 @@ print("La comparación de los numeros fue: ", comp)
 
 ##13
 print("")
-
 on = ("python", "dragon")
 if  "dragon" in on:
     print("on is in dragon")
@@ -115,17 +112,14 @@ par = int(input("Ingresa un numero: "))
 par = (par % 2)
 if par > 0:
  print("Es numero inpar")
-
 else:
     print("Es numero par")
-
 
 ##18
 print("")
 floDiv = 7 // 3
 intPi = int(2.7)
 comDiv = floDiv == intPi
-
 print("El resultado de la division es:", comDiv)
 
 ##19 
@@ -144,10 +138,10 @@ print("Los tipos de las unidades son iguales? ", comTyp)
 
 ##21
 print("")
-hours = int(input("¿Cuántas horas trabajaste: "))
-rate = int(input("Valor de la tarifa por hora: "))
-salario = hours * rate
-print("Tu salario es de ", "|", salario, "|" )
+horas = int(input("¿Cuántas horas trabajaste: "))
+tarifa = int(input("Valor de la tarifa por hora: "))
+salario = horas * tarifa
+print("Tu salario es de ",salario)
 
 ##22 
 years = int(input("Cuantos años tienes? "))
@@ -158,8 +152,6 @@ print("Tu tienes un total de:", total, "segundos")
 ##23
 for i in range(1, 6):  # Genera números del 1 al 5
     print(f"{i:<7} {1:<11} {i:<11} {i**2:<11} {i**3:<11}")
-
-
 #Ejemplo 23.1
 for i in range(1, 6):  # Números del 1 al 5
     print(i, 1, i, i**2, i**3)
