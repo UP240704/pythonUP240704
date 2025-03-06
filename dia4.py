@@ -106,3 +106,6 @@ print("30DaysOfPython".isidentifier())
 print("thirty_days_of_python".isidentifier())
 
 ##32
+lista="'Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon'"
+listaunida=" # ".join(lista)
+print(listaunida)
