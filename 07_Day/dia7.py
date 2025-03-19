@@ -9,7 +9,14 @@ print(len(it_companies))
 ##2
 it_companies.add("twitter")
 print(it_companies)
+
 ##3
 it_companies.update(["torres corzo","asus","intel"])
 print(it_companies)
+
+##4
+it_companies.remove("Microsoft")
+print(it_companies)
+
+##5
 
