@@ -21,7 +21,33 @@ print(it_companies)
 ##5
 
 
-##6
+##Ejercicios nivel2
+##1
 union=A.union(B)
 print(union)
 
+##2
+interseccion=A.intersection(B)
+print(interseccion)
+
+##3
+print(A.issubset(B))
+
+##4
+print(A.isdisjoint(B))
+
+##5
+print(A.union(B))
+print(B.union(A))
+
+##6
+print(A.symmetric_difference(B))
+
+##7
+del(A)
+del(B)
+
+##Ejerecicios nivel 3
+
+##1
+edad=
