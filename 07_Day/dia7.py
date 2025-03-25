@@ -50,4 +50,17 @@ del(B)
 ##Ejerecicios nivel 3
 
 ##1
-edad=
+edad=set(age)
+
+print("la longitud del set es:", len(edad))
+print("la longitud de la lista es:", len(age))
+
+##2
+#string es una secuencia inmutable de caracteres, list es una colección mutable y ordenada, tuple es una colección ordenada e inmutable, y set es una colección mutable y desordenada de elementos únicos.
+
+##3
+oración="I am a teacher and I love to inspire and teach people"
+palabras=oración.split()
+palabrasUnicas=set(palabras)
+print("las palabras unicas son: ", palabrasUnicas)
+print("el número de palabras unicas es: ", len(palabrasUnicas))
