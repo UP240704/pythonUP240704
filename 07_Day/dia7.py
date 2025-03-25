@@ -20,3 +20,8 @@ print(it_companies)
 
 ##5
 
+
+##6
+union=A.union(B)
+print(union)
+
