@@ -40,3 +40,8 @@ lista_de_tuples=estudiante.items()
 print(lista_de_tuples)
 
 ##10
+del(estudiante["skills"])
+print(estudiante)
+
+##11
+del(dog)
