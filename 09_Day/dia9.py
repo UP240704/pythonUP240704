@@ -55,17 +55,28 @@ elif mes in["junio","julio", "agosto"]: print("la estacion es verano")
 else: print("el texto ingresado no corresponde con un mes")
 
 ##3
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print("name a fruit")
+fruta=input()
+fruta=fruta.strip()
+fruta=fruta.lower()
+
+if fruta in fruits:print('That fruit already exist in the list')
+else: 
+    fruits.append(fruta)
+    print(fruits)
+
+##Ejerecicios nivel 3
+
+##1
 person={
-    'first_name': 'Asabeneh',
-    'last_name': 'Yetayeh',
-    'age': 250,
-    'country': 'Finland',
+    'first_name': 'Julio',
+    'last_name': 'Jule',
+    'age': 33,
+    'country': 'Guatemala',
     'is_marred': True,
     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address': {
-    'street': 'Space street',
-    'zipcode': '02210' } }
-
-
-
+        'street': 'Space street',
+        'zipcode': '02210' } }
 
