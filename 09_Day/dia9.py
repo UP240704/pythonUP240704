@@ -80,3 +80,5 @@ person={
         'street': 'Space street',
         'zipcode': '02210' } }
 
+if "skills" in person:
+    
