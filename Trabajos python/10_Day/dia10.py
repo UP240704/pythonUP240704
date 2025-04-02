@@ -48,3 +48,17 @@ while num3<100:
     num3=num3+2
 
 ##ejercicios nivel 2
+
+##1
+for i in range(101):
+    for j in range(100):
+        i=i+j
+
+print(i)
+
+##2
+for i in range(101):
+    for j in range(100):
+        if i%2==0 and j%2==0:
+            i=i+j
+print(i)
