@@ -79,6 +79,33 @@ person={
     'address': {
         'street': 'Space street',
         'zipcode': '02210' } }
+##1
+if "skills" in person: print("python")
+else: print("no skills set found")
 
-if "skills" in person:
+##3
+if "Python" in person["skills"]: print("la persona sabe python")
+else: print("la persona no sabe python")
+
+##4
+if 'skills' in person:
+    skills = person['skills']
+    if set(skills) == {'JavaScript', 'React'}:
+        print('He is a front end developer')
+    elif set(['Node', 'Python', 'MongoDB']).issubset(skills):
+        print('He is a backend developer')
+    elif set(['React', 'Node', 'MongoDB']).issubset(skills):
+        print('He is a fullstack developer')
+    else:
+        print('unknown title')
+else:
+    print("unknwontitle")
+
+##5
+if person['is_marred'] and person['country'] == 'Finland':
+    print(f"{person['first_name']} {person['last_name']} lives in Finland. He is married")
+else:
+    print(f"{person['first_name']} {person['last_name']} does not meet the criteria")
+
+
     
