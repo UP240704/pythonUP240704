@@ -31,3 +31,20 @@ while num1<11:
     num1=num1+1
 
 ##6
+lista=['Python', 'Numpy','Pandas','Django', 'Flask']
+for i in lista:
+    print(i)
+
+##7
+num2=0
+while num2<101:
+    print(num2)
+    num2=num2+2
+
+##8
+num3=1
+while num3<100:
+    print(num3)
+    num3=num3+2
+
+##ejercicios nivel 2
