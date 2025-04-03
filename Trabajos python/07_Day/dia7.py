@@ -64,3 +64,5 @@ palabras=oración.split()
 palabrasUnicas=set(palabras)
 print("las palabras unicas son: ", palabrasUnicas)
 print("el número de palabras unicas es: ", len(palabrasUnicas))
+
+print("revisado")
