@@ -165,7 +165,62 @@ def calculate_std(num):
     return std
 print(calculate_std([8,5,7,8,34,4,6]))
 
+##ejercicios nivel 3
 
+##1
+def is_prime(num):
+    for i in range(2, int(num**0.5)+1):
+        if (num%i)==0:
+            print(num,'no es primo')
+        else:
+            print(num,'es primo')
+    return ''
+print(is_prime(8))
 
+##2
+def unique(lista):
+    return len(set(lista))==len(lista)
+print(unique(["manzana","manzana","manzana"]))
 
+##3
+def same(lista):
+    list = iter(lista)
+    tipo = type(next(list))
+    if all((type(x) is tipo) for x in list): 
+        print(True)
+    else:
+        print(False)
+    return ''
+print(same([1,2,3,4,'manzana']))
 
+##4
+def is_valid_python_variable(var: str) -> bool:
+
+    if not var.isidentifier():
+        return False
+    
+    return True
+print(is_valid_python_variable('for'))
+
+##5
+from countrydata import infopaises
+
+from collections import Counter
+
+def obtener_idiomas_mas_hablados(paises, cantidad=10):
+    contador_idiomas = Counter()
+    for pais in paises:
+        contador_idiomas.update(pais["languages"])
+    return contador_idiomas.most_common(cantidad)
+
+def obtener_paises_mas_poblados(paises, cantidad=10):
+    paises_ordenados = sorted(paises, key=lambda pais: pais["population"], reverse=True)
+    return paises_ordenados[:cantidad]
+
+print("Idiomas más hablados:")
+for idioma, veces in obtener_idiomas_mas_hablados(infopaises, 10):
+    print(f"{idioma}: en {veces} países")
+
+print("\nPaises con mayor población:")
+for pais in obtener_paises_mas_poblados(infopaises, 10):
+    print(f"{pais['name']}: {pais['population']}")
