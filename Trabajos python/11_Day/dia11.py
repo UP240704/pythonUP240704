@@ -110,6 +110,60 @@ print(sum_of_even(1080))
 
 ##Ejercicios nivel 2
 
+##1
+def factorial(f):
+    numb=1
+    for i in range(1,f+1):
+        numb=i*numb
+    return numb
+print (factorial(9))
+
+##2
+def is_empty(lista):
+    if len(lista) == 0:
+        return True
+print (is_empty([]))
+
+##3
+def calculate_mean(num):
+    total_median=0
+    for i in num:
+        total_median=total_median+i
+        prom=total_median/len(num)
+    return prom
+print (calculate_mean([1,4,6,7,3,6,7,7]))
+
+def calculate_median(num):
+    median=num[int(len(num)/2)]
+    return median
+print (calculate_median([3,2,4,8,5,5,9,7]))
+
+def calculate_mode(num):
+    from collections import Counter
+    calculate_mode=Counter(num)
+    return calculate_mode.most_common(1)
+print(calculate_mode([3,2,4,8,5,5,11,7]))
+
+def calculate_range(num):
+    num.sort()
+    range1=num[0]
+    range2=num[int(len(num)-1)]
+    j=range(range1, range2)
+    return j
+print(calculate_range([8,4,48,1,5,9,5,9]))
+
+def calculate_variance(num):
+    var = sum(num) / len(num)
+    var1 = sum((i - var) ** 2 for i in num) / len(num)
+    return var1
+print(calculate_variance([6,4,7,8,3,5,7,4]))
+
+def calculate_std(num):
+    var = sum(num) / len(num)
+    var1= sum((i - var) ** 2 for i in num) / len(num)
+    std=var1**0.5
+    return std
+print(calculate_std([8,5,7,8,34,4,6]))
 
 
 
