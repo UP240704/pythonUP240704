@@ -69,3 +69,49 @@ def capitalize_list(lista):
 print (capitalize_list(['Potato', 'Tomato', 'Mango', 'Milk']))
 
 ##11
+def add_item(food_staff,FOOD):
+    food_staff=['Potato', 'Tomato', 'Mango', 'Milk']
+    food_staff.append(FOOD)
+    return food_staff
+print(add_item(['Potato', 'Tomato', 'Mango', 'Milk'], 'Pasta'))
+
+##12
+def remove_item(food_stuff,FOOD):
+    food_stuff=['Potato', 'Tomato', 'Mango', 'Milk']
+    food_stuff.remove(FOOD)
+    return food_stuff
+print (remove_item(['Potato', 'Tomato', 'Mango', 'Milk'], 'Tomato'))
+
+##13
+def sum_num(numero):
+    for i in range(numero+1):
+        for j in range(numero):
+            i=i+j
+    return i
+print(sum_num(55))
+
+##14
+def sum_of_odds(numero):
+    for i in range(numero+1):
+        for j in range(numero):
+            if i%2==0 and j%2==0:
+                i=i+j
+    return i
+print(sum_of_odds(88))
+
+##15
+def sum_of_even(numero):
+    total = 0
+    for i in range(numero + 1):
+        if i % 2 == 0:
+            total += i
+    return total
+print(sum_of_even(1080))
+
+##Ejercicios nivel 2
+
+
+
+
+
+
