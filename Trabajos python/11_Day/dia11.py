@@ -44,3 +44,18 @@ def calculate_slope(x1,y1,x2,y2):
     slope=(y2-y1)/(x2-x1)
     return slope
 print (calculate_slope(7,8,10,15))
+
+##7
+def solve_quadratic_eqn(a,b,c):
+    x1=(-b+((b**2)-4*a*c)**0.5)/(2*a)
+    x2=(-b-((b**2)-4*a*c)**0.5)/(2*a)
+    return x1,x2
+print (solve_quadratic_eqn(10,20,30))
+
+##8
+def print_list(lista):
+    for i in lista:
+        print(i)
+print_list(["jamom","atun","pescao"])
+
+##9
