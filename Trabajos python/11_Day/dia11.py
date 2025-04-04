@@ -59,3 +59,13 @@ def print_list(lista):
 print_list(["jamom","atun","pescao"])
 
 ##9
+def reverse_list(lista):
+    return lista[::-1]
+print(reverse_list(["jamom","atun","pescao"]))
+
+##10
+def capitalize_list(lista):
+    return [i.upper() for i in lista]
+print (capitalize_list(['Potato', 'Tomato', 'Mango', 'Milk']))
+
+##11
