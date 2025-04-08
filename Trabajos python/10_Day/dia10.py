@@ -113,3 +113,5 @@ most_populated_countries = sorted(info_paises, key=lambda x: x.get('population',
 print("\nTen most populated countries:")
 for country in most_populated_countries:
     print(f"{country.get('name', 'Unknown')}: {country.get('population', 'Unknown')}")
+
+print("revisado")

@@ -224,3 +224,5 @@ for idioma, veces in obtener_idiomas_mas_hablados(infopaises, 10):
 print("\nPaises con mayor población:")
 for pais in obtener_paises_mas_poblados(infopaises, 10):
     print(f"{pais['name']}: {pais['population']}")
+
+print("revisado")

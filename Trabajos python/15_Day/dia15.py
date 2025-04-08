@@ -47,3 +47,5 @@ print(int('12'))
 # ## ZeroDivisionError
 # ##print(1/0); No se puede dividir entre cero
 print(1/2)
+
+print("revisado")
